@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-demo
+  name: nginx-demos8
   labels:
-    app: nginx
+    app: nginx8
 spec:
   type: ClusterIP
   selector:
-    app: nginx
+    app: nginx8
   ports:
     - protocol: TCP
       port: 8087
