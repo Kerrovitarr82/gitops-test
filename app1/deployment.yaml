@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:nottt
+        image: nginx:latest
         resources:
           requests:
             memory: "32Mi"
