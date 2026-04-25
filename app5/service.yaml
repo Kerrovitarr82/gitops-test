@@ -1,14 +1,4 @@
 apiVersion: v1
-kind: Service
+kind: Namespace
 metadata:
-  name: nginx-demos5
-  labels:
-    app: nginx5
-spec:
-  type: ClusterIP
-  selector:
-    app: nginx5
-  ports:
-    - protocol: TCP
-      port: 8084
-      targetPort: 8084
+  name: test-app5
