@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: nginx:nonexistent-tag-99999
         resources:
           requests:
             memory: "32Mi"
